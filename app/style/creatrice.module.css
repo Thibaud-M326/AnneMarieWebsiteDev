@@ -1,0 +1,36 @@
+.creatriceDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbef;
+    height: 76vh;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.imgDiv img {
+    border-radius: 4px;
+    margin-left: 5vw;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10vw;
+    padding-left: 5vw;
+    width: 85vw;
+    height: 76vh;
+    /* background-color: aquamarine; */
+}
+
+.creatriceDiv p {
+    max-width: 600px;
+}
