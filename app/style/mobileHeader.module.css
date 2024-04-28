@@ -1,7 +1,9 @@
 .headerDiv {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100vw;
     height: 7vh;
     background-color: #fffbef;
     border-bottom: 1px solid #DDDBD1;
@@ -13,16 +15,75 @@
 }
 
 .rightHeaderDiv {
-
+    margin-right: 4vw;
 }
 
-.rightHeaderDiv a {
-    color: black;
-    text-decoration: none;
-    margin-right: min(4vw, 50px);
+.burgerButton {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
-.rightHeaderDiv Image {
-    width: 20px;
-    height: 20px;
+.menuDivNeutral {
+    position: absolute;
+    width: 100px;
+    height: 1vh;
+    background-color: rgb(122, 255, 105);
+    top: 0;
+    left: 50%;
+}
+
+.menuDivDisplay {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    top: 0;
+    left: 50%;
+    animation-duration: 0.2s;
+    animation-name: openCurtain;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.menuDivNone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+    top: 0;
+    left: 50%;
+    animation-duration: 0.2s;
+    animation-name: closeCurtain;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.menuDivDisplay p {
+    display: block;
+    margin: 20px;
+}
+
+/* //css animations */
+@keyframes openCurtain {
+    from {
+        height: 10px;
+    }
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes closeCurtain {
+    from {
+        height: 100vh;
+    }
+    to {
+        height: 10px;
+    }
 }

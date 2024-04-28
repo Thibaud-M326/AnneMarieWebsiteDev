@@ -34,4 +34,12 @@
         max-width: 450px;
         margin: 5vw;
     }
+
+    .imgDiv img {
+        object-fit: cover;
+        margin: 0;
+        margin-top: 7vh;
+        width: 100vw;
+        max-width: 450px;
+    }
 }
