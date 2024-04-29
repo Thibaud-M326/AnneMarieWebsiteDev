@@ -96,7 +96,10 @@ export default function App() {
 
 
   return (
-    <div className={styles.creationsDiv}>
+    <div
+      className={styles.creationsDiv}
+      id="creations"
+    >
       <h1>
         Les Creations
       </h1>

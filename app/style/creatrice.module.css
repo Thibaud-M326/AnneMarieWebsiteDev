@@ -25,6 +25,10 @@
     /* background-color: aquamarine; */
 }
 
+.textDiv h1 {
+    font-size: 25px;
+}
+
 @media screen and (max-width: 885px) {
     .creatriceDiv {
         flex-direction: column;

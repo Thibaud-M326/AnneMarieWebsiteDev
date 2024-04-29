@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/app/style/desktopHeader.module.css'
+import { Merriweather } from 'next/font/google'
+
+const merriweather = Merriweather({
+	subsets: ['latin'],
+	weight: '300'
+})
 
 export default function DesktopHeader() {
 	const besaceMaj = "Besaces.";
@@ -10,11 +16,19 @@ export default function DesktopHeader() {
 			<div>
 				<h1 className={styles.besaceH1}>{besaceMaj}</h1>
 			</div>
-			<div className={styles.rightHeaderDiv}>
-				<Link href="">creations</Link>
-				<Link href="">à propos</Link>
-				<Link href="">contact</Link>
-				<Link href="">FAQ</Link>
+			<div className={`${styles.rightHeaderDiv} ${merriweather.className}`}>
+				<Link
+					href="#creations"
+				>creations</Link>
+				<Link
+					href="#aPropos"
+				>à propos</Link>
+				<Link
+					href="#contact"
+				>contact</Link>
+				<Link
+					href="#faq"
+				>FAQ</Link>
 				<Link
 					href="https://www.instagram.com/"
 					target='_blank'

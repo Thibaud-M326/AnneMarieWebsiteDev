@@ -1,5 +1,11 @@
 import Image from 'next/image'
 import styles from '@/app/style/creatrice.module.css'
+import { Merriweather } from 'next/font/google'
+
+const merriweather = Merriweather({
+	subsets: ['latin'],
+	weight: '300'
+})
 
 export default function Creatrice() {
   return (
@@ -16,12 +22,14 @@ export default function Creatrice() {
         <h1>
           La Créatrice
         </h1>
-        <p>
+        <p className={merriweather.className}>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab  illo inventore veritatis et quasi architecto beatae vitae dicta sunt  explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut  odit aut fugit, sed quia consequuntur
   magni dolores eos qui ratione  voluptatem sequi nesciunt.
         </p>
         <span>_</span>
-        <p>Anne-Marie</p>
+        <p className={merriweather.className}>
+          Anne-Marie
+        </p>
       </div>
     </div>
   );

@@ -1,89 +1,142 @@
 .headerDiv {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
-    height: 7vh;
-    background-color: #fffbef;
-    border-bottom: 1px solid #DDDBD1;
+  position: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  background-color: #fffbef;
+  border-bottom: 1px solid #dddbd1;
 }
 
 .besaceH1 {
-    margin-left: 4vw;
-    font-weight: 100;
+  margin-left: 4vw;
+  font-weight: 100;
 }
 
 .rightHeaderDiv {
-    margin-right: 4vw;
+  margin-right: 4vw;
 }
 
 .burgerButton {
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.closeButton {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .menuDivNeutral {
-    position: absolute;
-    width: 100px;
-    height: 1vh;
-    background-color: rgb(122, 255, 105);
-    top: 0;
-    left: 50%;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 0px;
+  /* background-color: rgb(122, 255, 105); */
+  background-color: #fffbef;
+  top: 0;
+  overflow: hidden;
 }
 
 .menuDivDisplay {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    top: 0;
-    left: 50%;
-    animation-duration: 0.2s;
-    animation-name: openCurtain;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100px;
+  /* background-color: aqua; */
+  background-color: #fffbef;
+  top: 0;
+  animation-duration: 0.6s;
+  animation-name: openCurtain;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  overflow: hidden;
 }
 
 .menuDivNone {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 196, 0);
-    top: 0;
-    left: 50%;
-    animation-duration: 0.2s;
-    animation-name: closeCurtain;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 0px;
+  /* background-color: rgb(255, 196, 0); */
+  background-color: #fffbef;
+  top: 0;
+  animation-duration: 0.8s;
+  animation-name: closeCurtain;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  overflow: hidden;
 }
 
-.menuDivDisplay p {
-    display: block;
-    margin: 20px;
+.containerDiv {
+  position: relative;
+  margin-top: 7vh;
+  width: 100vw;
+  height: 63vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	cursor: pointer;
+}
+
+.containerDiv a {
+  color: black;
+  text-decoration: none;
+	font-size: 1.3625rem;
+	font-weight: 800;
+	margin-bottom: 3vh;
+}
+
+.containerDiv a:hover {
+  text-decoration: underline;
+}
+
+.containerDiv span {
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	margin: 1vh;
+}
+
+.containerDiv img {
+  width: 45px;
+  height: 45px;
+	margin-top: 3vh;
+	margin-left: 2vh;
+	margin-right: 2vh;
 }
 
 /* //css animations */
 @keyframes openCurtain {
-    from {
-        height: 10px;
-    }
-    to {
-        height: 100vh;
-    }
+  from {
+    height: 10px;
+  }
+  to {
+    height: 100vh;
+  }
 }
 
 @keyframes closeCurtain {
-    from {
-        height: 100vh;
-    }
-    to {
-        height: 10px;
-    }
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 10px;
+  }
 }
