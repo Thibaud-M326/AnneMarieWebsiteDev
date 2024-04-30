@@ -1,49 +1,54 @@
 .creatriceDiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(255, 251, 239);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 251, 239);
 }
 
 .imgDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
 }
 
 .imgDiv img {
-    border-radius: 4px;
-    margin: 5vw;
+  border-radius: 4px;
+  margin: 5vw;
 }
 
 .textDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 5vw; 
-    /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5vw;
+  /* background-color: aquamarine; */
 }
 
 .textDiv h1 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 885px) {
-    .creatriceDiv {
-        flex-direction: column;
-    }
+  .creatriceDiv {
+    flex-direction: column;
+  }
 
-    .textDiv {
-        max-width: 450px;
-        margin: 5vw;
-    }
+  .textDiv {
+    max-width: 450px;
+    margin: 5vw;
+  }
 
-    .imgDiv img {
-        object-fit: cover;
-        margin: 0;
-        margin-top: 7vh;
-        width: 100vw;
-        max-width: 450px;
-    }
+  .imgDiv img {
+    object-fit: cover;
+    margin: 0;
+    width: 100vw;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .imgDiv img {
+    max-width: none;
+  }
 }

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/app/style/mobileHeader.module.css'
+import styles from '@/app/style/headers/mobileHeader.module.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Roboto } from 'next/font/google'
@@ -40,7 +40,8 @@ export default function MobileHeader() {
 					onClick={displayMenu}
 				>
 					<MenuIcon
-						sx={{ fontSize: 40 }}
+						sx={{ fontSize: 45 }}
+            className={styles.burgerIcon}
 					/>
 				</button>
 			</div>

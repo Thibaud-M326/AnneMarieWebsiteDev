@@ -7,12 +7,9 @@ import DesktopHeader from "@/app/ui/headers/desktopHeader"
 export default function Header() {
   const screenSize = useScreenSize();
 
-  console.log(screenSize);
-
   if (screenSize.screenSize == 'xs') {
     return <MobileHeader />
   } else {
     return <DesktopHeader />
   }
-
 }

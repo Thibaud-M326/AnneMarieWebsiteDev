@@ -1,0 +1,56 @@
+.aProposDiv {
+  background-color: rgb(255, 251, 239);
+  display: flex;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textDiv h1 {
+  font-size: 25px;
+}
+
+.titleTextDiv {
+  width: 50%;
+}
+
+.quoteDiv {
+  margin-top: 10vh;
+  width: 50%;
+}
+
+.containerDiv span {
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  margin: 1vh;
+}
+
+.imageDiv {
+	margin: 5vh;
+	margin-right: 5vw;
+}
+
+@media screen and (max-width: 1400px) {
+  .titleTextDiv {
+    width: 80%;
+  }
+
+  .quoteDiv {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .titleTextDiv {
+    width: 95%;
+  }
+
+  .quoteDiv {
+    width: 95%;
+  }
+}

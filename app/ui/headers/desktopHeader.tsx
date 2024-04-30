@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '@/app/style/desktopHeader.module.css'
+import styles from '@/app/style/headers/desktopHeader.module.css'
 import { Merriweather } from 'next/font/google'
 
 const merriweather = Merriweather({

@@ -1,11 +1,11 @@
 'use client'
 
 import * as React from "react"
-import styles from "@/app/style/creations.module.css"
+import styles from "@/app/style/creations/creations.module.css"
 import Image from 'next/image'
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import "@/app/style/carousel.css"
+import "@/app/style/creations/carousel.css"
 
 export default function App() {
     //load current size on first render
