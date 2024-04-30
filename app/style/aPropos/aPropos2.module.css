@@ -1,0 +1,83 @@
+.aProposDiv {
+  background-color: #fffefa;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textDiv h1 {
+  font-size: 25px;
+}
+
+.titleTextDiv {
+  width: 50%;
+}
+
+.quoteDiv {
+  margin-top: 10vh;
+  width: 50%;
+}
+
+.containerDiv span {
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  margin: 1vh;
+}
+
+.imageDiv {
+  margin: 5vh;
+  margin-left: 5vw;
+}
+
+.imageDiv img {
+  object-fit: cover;
+  object-position: right;
+}
+
+@media screen and (max-width: 1400px) {
+  .titleTextDiv {
+    width: 80%;
+  }
+
+  .quoteDiv {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .titleTextDiv {
+    margin: 5vh;
+    max-width: 450px;
+  }
+
+  .quoteDiv {
+    margin: 5vh;
+    max-width: 550px;
+  }
+
+  .aProposDiv {
+    flex-direction: column-reverse;
+  }
+
+  .imageDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageDiv img {
+    width: 100vw;
+  }
+
+  .imageDiv {
+    margin: 0;
+  }
+}

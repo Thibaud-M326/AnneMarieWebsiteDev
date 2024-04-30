@@ -31,8 +31,14 @@
 }
 
 .imageDiv {
-	margin: 5vh;
-	margin-right: 5vw;
+  margin: 5vh;
+  margin-right: 5vw;
+  object-fit: cover;
+}
+
+.imageDiv img {
+  object-fit: cover;
+  object-position: left;
 }
 
 @media screen and (max-width: 1400px) {
@@ -47,10 +53,31 @@
 
 @media screen and (max-width: 885px) {
   .titleTextDiv {
-    width: 95%;
+    margin: 5vh;
+    max-width: 450px;
   }
 
   .quoteDiv {
-    width: 95%;
+    margin: 5vh;
+    max-width: 550px;
+  }
+
+  .aProposDiv {
+    flex-direction: column-reverse;
+  }
+
+  .imageDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageDiv img {
+    width: 100vw;
+  }
+
+  .imageDiv {
+    margin: 0;
   }
 }
