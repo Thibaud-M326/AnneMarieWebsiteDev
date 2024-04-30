@@ -1,0 +1,71 @@
+.contactDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  background-color: rgb(255, 251, 239);
+}
+
+.contactDiv p {
+	font-size: larger;
+	margin-top: 0;
+}
+
+.contactezNousDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactTextDiv {
+	display:contents;
+}
+
+.contactDiv h1 {
+	width: 95vw;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 25px;
+}
+
+.formDiv form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.formDiv form input{
+	margin-bottom: 2vh;
+	font-size: 16px;
+	width: 50vw;
+	height: 30px;
+	border: 1px solid #E8E8E8;
+}
+
+.formDiv form textarea{
+	font-size: 16px;
+	width: 50vw;
+	height: 20vh;
+	border: 1px solid #E8E8E8;
+	resize: none;
+}
+
+.formDiv form p {
+	font-size: 14px;
+	margin: 0.2vh;
+}
+
+.formDiv form button{
+	margin-bottom: 5vh;
+	font-size: 18px;
+	border-radius: 0;
+	background-color: black;
+	color: white;
+	border: none;
+	width: 90px;
+}
+
+.prenomInput {
+	margin-top: 3vh;
+}

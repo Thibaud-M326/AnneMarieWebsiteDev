@@ -7,7 +7,7 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import "@/app/style/creations/carousel.css"
 
-export default function App() {
+export default function Creations() {
     //load current size on first render
     const [sizeCarousel, setSizeCarousel] = React.useState(() => {
       if (window.innerWidth <= 616) {
