@@ -11,10 +11,18 @@
     font-weight: 700;
     color: white;
     margin-bottom: 0px;
+    margin-top: 6vh;
 }
 
-.faqDiv p {
+.tipsP {
     font-size: 25px;
     font-weight: 700;
     color: white;
+    margin-bottom: 6vh;
+}
+
+.questionDiv {
+    width: 90vw;
+    height: 60vh;
+    overflow: scroll;
 }

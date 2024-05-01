@@ -10,12 +10,12 @@ const merriweather = Merriweather({
 export default function aPropos() {
 
   return (
-    <div className={styles.aProposDiv}>
+    <div className={styles.aProposDiv}
+      id="aPropos"
+    >
       <div className={styles.textDiv}>
         <div className={styles.titleTextDiv}>
-          <h1 
-            id="aPropos"
-          >Materiaux</h1>
+          <h1 >Materiaux</h1>
           <p
             className={merriweather.className}
           >

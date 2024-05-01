@@ -1,11 +1,11 @@
 import styles from '@/app/style/faq/faq.module.css'
 import { Jaldi } from 'next/font/google'
 import FaqBlock from "@/app/ui/faq/faqBlock"
-import { faqs } from "@/app/ui/faq/faqList"
+import { questions, reponses } from "@/app/lib/faqList"
 
 const jaldi = Jaldi({
-  subsets: ['latin'],
-  weight: ['400', '700']
+	subsets: ['latin'],
+	weight: ['400', '700']
 })
 
 export default function Faq() {
@@ -17,11 +17,21 @@ export default function Faq() {
 			<h1>
 				Foire aux questions
 			</h1>
-			<p>
+			<p
+				className={styles.tipsP}
+			>
 				Cliquez sur les questions qui vous intéressent pour voir apparaître leurs réponses.
 			</p>
 			<div className={styles.questionDiv}>
-				<FaqBlock />
+				{questions.map(function (question, i) {
+					return (
+						<FaqBlock
+							key={i}
+							question={question}
+							reponse={reponses[i]}
+						/>
+					);
+				})}
 			</div>
 		</div>
 	);
