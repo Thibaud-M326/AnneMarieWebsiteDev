@@ -1,28 +1,46 @@
 .faqDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #B6DAD8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6dad8;
 }
 
 .faqDiv h1 {
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 0px;
-    margin-top: 6vh;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 6vh;
+}
+
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tipsP {
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 6vh;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 6vh;
+  max-width: 90vw;
 }
 
 .questionDiv {
-    width: 90vw;
-    height: 60vh;
-    overflow: scroll;
+  width: 90vw;
+  height: 60vh;
+  overflow: scroll;
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 450px) {
+  .faqDiv h1 {
+    font-size: 30px;
+  }
+
+  .tipsP {
+    font-size: 20px;
+  }
 }

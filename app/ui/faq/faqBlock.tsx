@@ -5,14 +5,14 @@ import type { question, reponse } from "@/app/lib/definition"
 import { useState } from "react"
 
 export default function FaqBlock({ question, reponse }: { question: question; reponse: reponse }) {
-	const [styleReponseP, setStyleReponseP] = useState(styles.reponseNeutralP)
+	const [styleReponseDiv, setStyleReponseDiv] = useState(styles.reponseNeutralDiv)
 
 	function handleClick() {
-		if (styleReponseP === styles.reponseNeutralP
-			|| styleReponseP === styles.reponseHideP) {
-			setStyleReponseP(styles.reponseDisplayP)
+		if (styleReponseDiv === styles.reponseNeutralDiv
+			|| styleReponseDiv === styles.reponseHideDiv) {
+			setStyleReponseDiv(styles.reponseDisplayDiv)
 		} else {
-			setStyleReponseP(styles.reponseHideP)
+			setStyleReponseDiv(styles.reponseHideDiv)
 		}
 	}
 
@@ -25,9 +25,9 @@ export default function FaqBlock({ question, reponse }: { question: question; re
 			>
 				{question}
 			</p>
-			<div className={styles.reponseDiv}>
+			<div className={styleReponseDiv}>
 				<p
-					className={styleReponseP}
+					className={styles.reponseP}
 				>
 					{reponse}
 				</p>

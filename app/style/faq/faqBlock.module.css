@@ -1,59 +1,56 @@
 .faqDiv {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
-	margin-bottom: 0vh;
+  margin-bottom: 0vh;
 }
 
 .questionP {
   background-color: #9acac8;
   color: white;
-	margin: 0px;
+  margin: 0px;
   padding: 10px;
   padding-left: 20px;
+  cursor: pointer;
 }
 
-.reponseDiv {
-  background-color: #9acac8;
-}
-
-.reponseNeutralP {
-  color: black;
-  background-color: rgb(255, 255, 255);
-  margin-top: 0;
+.reponseNeutralDiv {
   margin-bottom: 2vh;
-  font-size: 21px;
-  font-weight: 700;
   height: 0px;
   overflow: hidden;
 }
 
-.reponseDisplayP {
-  color: black;
+.reponseDisplayDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 0;
   margin-bottom: 2vh;
-  font-size: 21px;
-  font-weight: 700;
-  overflow: hidden;
+  overflow: hidden scroll;
   animation-duration: 0.2s;
   animation-name: openCurtain;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
-.reponseHideP {
-  color: black;
-  background-color: rgb(255, 255, 255);
-  margin-top: 0;
+.reponseHideDiv {
+  display: flex;
   margin-bottom: 2vh;
-  font-size: 21px;
-  font-weight: 700;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
   height: 0px;
-  overflow: hidden;
+  overflow: hidden scroll;
   animation-duration: 0.2s;
   animation-name: closeCurtain;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
+}
+
+.reponseP {
+  width: 90%;
+  margin: 3vh;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @keyframes openCurtain {
@@ -71,5 +68,33 @@
   }
   to {
     height: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .questionP {
+    font-size: 20px;
+  }
+
+  .reponseP {
+    font-size: 18px;
+  }
+
+  @keyframes openCurtain {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 50vh;
+    }
+  }
+
+  @keyframes closeCurtain {
+    from {
+      height: 50vh;
+    }
+    to {
+      height: 0px;
+    }
   }
 }
