@@ -1,7 +1,10 @@
+'use client'
+
 import styles from '@/app/style/faq/faq.module.css'
 import { Jaldi } from 'next/font/google'
 import FaqBlock from "@/app/ui/faq/faqBlock"
 import { questions, reponses } from "@/app/lib/faqList"
+import { useState } from "react"
 
 const jaldi = Jaldi({
   subsets: ['latin'],
@@ -27,11 +30,11 @@ export default function Faq() {
       <div className={styles.questionDiv}>
         {questions.map(function (question, i) {
           return (
-            <FaqBlock
-              key={i}
-              question={question}
-              reponse={reponses[i]}
-            />
+              <FaqBlock
+                key={i}
+                question={question}
+                reponse={reponses[i]}
+              />
           );
         })}
       </div>

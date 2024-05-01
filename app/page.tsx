@@ -5,6 +5,7 @@ import APropos1 from "@/app/ui/aPropos/aPropos1"
 import APropos2 from "@/app/ui/aPropos/aPropos2"
 import Contact from "@/app/ui/contact"
 import Faq from "@/app/ui/faq/faq"
+import Footer from "@/app/ui/footer"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <APropos2 />
       <Contact />
       <Faq />
+      <Footer />
     </main>
   );
 }

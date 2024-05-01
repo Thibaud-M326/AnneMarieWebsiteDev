@@ -1,0 +1,28 @@
+.footerDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: #121212;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.footerDiv p {
+  font-size: 17px;
+  color: white;
+}
+
+.footerDiv a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1vw;
+}
+
+.footerDiv a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.linkDiv {
+  display: flex;
+  align-items: center;
+}

@@ -94,7 +94,7 @@ export default function MobileHeader() {
 							/>
 						</Link>
 						<Link
-							href="https://www.instagram.com/"
+							href="https://www.facebook.com/"
 							target='_blank'
 						>
 							<Image
