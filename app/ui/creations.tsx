@@ -31,7 +31,6 @@ export default function Creations() {
   //read screen size to change sizeCarousel
   React.useEffect(() => {
     function handleResize() {
-      console.log('resized to: ', window.innerWidth, 'x', window.innerHeight);
       if (window.innerWidth <= 616) {
         setSizeCarousel(1);
       }

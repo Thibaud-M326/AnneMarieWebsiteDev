@@ -12,6 +12,8 @@ const jaldi = Jaldi({
 })
 
 export default function Faq() {
+  const [open, setOpen] = useState(true)
+
   return (
     <div
       id="faq"
@@ -29,12 +31,23 @@ export default function Faq() {
       </div>
       <div className={styles.questionDiv}>
         {questions.map(function (question, i) {
+
+          function clickFun() {
+            setOpen(!open)
+          }
+
           return (
+            <div
+              key={i}
+              onClick={clickFun}
+            >
               <FaqBlock
                 key={i}
                 question={question}
                 reponse={reponses[i]}
+                open={open}
               />
+            </div>
           );
         })}
       </div>
