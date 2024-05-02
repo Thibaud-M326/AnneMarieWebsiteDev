@@ -87,7 +87,7 @@ export default function MobileHeader() {
 							target='_blank'
 						>
 							<Image
-								src="/logoInstagram.png"
+								src="/socials/logoInstagram.png"
 								width={35}
 								height={35}
 								alt="Logo Instagram"
@@ -98,7 +98,7 @@ export default function MobileHeader() {
 							target='_blank'
 						>
 							<Image
-								src="/logoFacebook.png"
+								src="/socials/logoFacebook.png"
 								width={35}
 								height={35}
 								alt="Logo Facebook"

@@ -10,21 +10,29 @@ import { useScreenSize } from "@/app/lib/screenSize";
 
 export default function Creations() {
 
-
+  const screenSize = useScreenSize().screenSize;
 
   //load current size on first render  
   const [sizeCarousel, setSizeCarousel] = React.useState(() => {
-    return 3;
+    return 1;
   });
 
   //read screen size to change sizeCarousel
   React.useEffect(() => {
-    function HandleResize() {
-
-      const screenSize = useScreenSize();
-
+    console.log(screenSize)
+    if(screenSize === "xs") {
+      setSizeCarousel(1);
+    } else if (screenSize === "sm") {
+      setSizeCarousel(1.5);
+    } else if (screenSize === "md") {
+      setSizeCarousel(2.5);
+    } else if (screenSize === "lg") {
+      setSizeCarousel(3.5);
+    } else {
+      setSizeCarousel(4);
     }
-  })
+
+  }, [sizeCarousel, setSizeCarousel, screenSize])
 
   const [sliderRef] = useKeenSlider<HTMLDivElement>(
     {
