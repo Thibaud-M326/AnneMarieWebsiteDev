@@ -18,10 +18,6 @@ export default function Footer() {
         className={styles.footerDiv}
       >
         <div>
-          <p>Livraison et Retour</p>
-          <p>Moyens de paiement</p>
-        </div>
-        <div>
           <Link
             href="#contact"
           >Contact</Link>

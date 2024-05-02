@@ -6,50 +6,24 @@ import Image from 'next/image'
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import "@/app/style/creations/carousel.css"
+import { useScreenSize } from "@/app/lib/screenSize";
 
 export default function Creations() {
-    //load current size on first render
-    const [sizeCarousel, setSizeCarousel] = React.useState(() => {
-      if (window.innerWidth <= 616) {
-        return 1;
-      }
-      else if (window.innerWidth <= 766) {
-        return 2;
-      }
-      else if (window.innerWidth <= 1080) {
-        return 2.5;
-      }
-      else if (window.innerWidth <= 1400) {
-        return 3.5;
-      }
-      else {
-        return 4.5;
-      }
-    }
-  );
+
+
+
+  //load current size on first render  
+  const [sizeCarousel, setSizeCarousel] = React.useState(() => {
+    return 3;
+  });
 
   //read screen size to change sizeCarousel
   React.useEffect(() => {
-    function handleResize() {
-      console.log('resized to: ', window.innerWidth, 'x', window.innerHeight);
-      if (window.innerWidth <= 616) {
-        setSizeCarousel(1);
-      }
-      else if (window.innerWidth <= 766) {
-        setSizeCarousel(2);
-      }
-      else if (window.innerWidth <= 1080) {
-        setSizeCarousel(2.5);
-      }
-      else if (window.innerWidth <= 1400) {
-        setSizeCarousel(3.5);
-      }
-      else {
-        setSizeCarousel(4.5);
-      }
-    }
+    function HandleResize() {
 
-    window.addEventListener('resize', handleResize);
+      const screenSize = useScreenSize();
+
+    }
   })
 
   const [sliderRef] = useKeenSlider<HTMLDivElement>(
