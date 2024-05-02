@@ -12,7 +12,7 @@ export default function Signature() {
 			<p
 				className={styles.signature}
 			>
-				2024 @ design et réalisation par thibaudmaitre@gmail.com
+				2024 @ crée par thibaudmaitre@gmail.com
 			</p>
 		</div>
 	);
