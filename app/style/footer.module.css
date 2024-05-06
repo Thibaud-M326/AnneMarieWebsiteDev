@@ -24,5 +24,16 @@
 
 .linkDiv {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkDiv a {
+  margin-left: 1vw;
+  margin-right: 0;
+}
+
+.instagramDiv {
+  display: flex;
   align-items: center;
 }

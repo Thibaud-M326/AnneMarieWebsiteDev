@@ -15,12 +15,14 @@ export default function aPropos() {
         <div className={styles.titleTextDiv}>
           <h1 
             id="aPropos"
-          >Designé et fait à la main</h1>
+          >Savoir-faire</h1>
           <p
             className={merriweather.className}
           >
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab  illo inventore veritatis et quasi architecto beatae vitae dicta sunt  explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut  odit aut fugit, sed quia consequuntur
-            magni dolores eos qui ratione  voluptatem sequi nesciunt.
+          Mon savoir-faire en matière de couture s&apos;associe harmonieusement à mon esprit créatif et à ma patience.
+Chaque idée, chaque geste reflète exprime ma joie de créer.
+Cette combinaison d&apos;expertise et de passion donne naissance à des œuvres uniques, empreintes de mon style personnel et de mon souci du détail.
+Laissez-vous séduire et affirmez votre style avec un accessoire qui vous ressemble.
           </p>
         </div>
         <div className={`${styles.quoteDiv} ${merriweather.className}`}>

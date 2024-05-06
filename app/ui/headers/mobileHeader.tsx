@@ -12,7 +12,7 @@ const roboto = Roboto({
 })
 
 export default function MobileHeader() {
-	const besaceMaj = "Besaces.";
+	const besaceMaj = "AM Créa";
 	const [styleMenuDiv, setStyleMenuDiv] = useState(styles.menuDivNeutral)
 
 	function displayMenu() {
@@ -41,7 +41,7 @@ export default function MobileHeader() {
 				>
 					<MenuIcon
 						sx={{ fontSize: 45 }}
-            className={styles.burgerIcon}
+						className={styles.burgerIcon}
 					/>
 				</button>
 			</div>
@@ -49,7 +49,10 @@ export default function MobileHeader() {
 			<div className={styleMenuDiv}>
 				<div className={styles.headerDiv}>
 					<div>
-						<h1 className={styles.besaceH1}>{besaceMaj}</h1>
+						<h1 className={styles.besaceMenuH1}>{besaceMaj}</h1>
+						<p
+							className={styles.besaceP}
+						>Sacs et Accessoires - Des créations uniques</p>
 					</div>
 					<div className={styles.rightHeaderDiv}>
 						<button
@@ -83,25 +86,18 @@ export default function MobileHeader() {
 					<span />
 					<div >
 						<Link
+							className={styles.instagram}
 							href="https://www.instagram.com/"
 							target='_blank'
 						>
+							<p>
+								INSTAGRAM
+							</p>
 							<Image
 								src="/socials/logoInstagram.png"
 								width={35}
 								height={35}
 								alt="Logo Instagram"
-							/>
-						</Link>
-						<Link
-							href="https://www.facebook.com/"
-							target='_blank'
-						>
-							<Image
-								src="/socials/logoFacebook.png"
-								width={35}
-								height={35}
-								alt="Logo Facebook"
 							/>
 						</Link>
 					</div>

@@ -15,17 +15,19 @@ export default function aPropos() {
     >
       <div className={styles.textDiv}>
         <div className={styles.titleTextDiv}>
-          <h1 >Materiaux</h1>
+          <h1 >Mon Atelier</h1>
           <p
             className={merriweather.className}
           >
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab  illo inventore veritatis et quasi architecto beatae vitae dicta sunt  explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut  odit aut fugit, sed quia consequuntur
-            magni dolores eos qui ratione  voluptatem sequi nesciunt.
+            Je laisse libre cours à ma créativité en compagnie de ma fidèle collaboratrice, la machine à coudre.
+J&apos;aime jouer avec des matériaux variés : du liège solide aux tissus comme le simili, la toile de jute et le coton.
+En les associant, je crée des pièces à la fois robustes et charmantes, parfaites pour durer dans le temps avec style et élégance.
+Chaque pièce est pensée pour la femme moderne, dynamique et raffinée, qui cherche à allier praticité et style intemporel dans son quotidien.
           </p>
         </div>
         <div className={`${styles.quoteDiv} ${merriweather.className}`}>
           <p>
-            «Chacun de nos sacs à main est confectionné à partir de  matériaux soigneusement sélectionnés, alliant qualité et durabilité pour  un style intemporel.»
+          «Chacun de nos sacs est confectionné à partir de matériaux soigneusement sélectionnés, alliant qualité et durabilité pour un style intemporel.»
           </p>
         </div>
       </div>

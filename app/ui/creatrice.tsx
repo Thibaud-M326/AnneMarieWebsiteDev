@@ -23,8 +23,11 @@ export default function Creatrice() {
           La Créatrice
         </h1>
         <p className={merriweather.className}>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab  illo inventore veritatis et quasi architecto beatae vitae dicta sunt  explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut  odit aut fugit, sed quia consequuntur
-  magni dolores eos qui ratione  voluptatem sequi nesciunt.
+        Bienvenue dans un monde de création et de passion.
+La couture est un art, où chaque point raconte une histoire, révélant la touche finale qui rend chaque sac spécial.
+Dans mon atelier, la créativité est reine et chaque pièce est le fruit d&apos;un travail minutieux, où l&apos;assemblage des matières et l&apos;harmonisation des couleurs donnent vie à des accessoires conçus avec attention tant à l&apos;intérieur qu&apos;à l&apos;extérieur.
+J&apos;aime mêler les matières, du tissu au liège, de la toile de jute aux imprimés, pour composer des pièces uniques et exprimer ma passion pour la couture créative.
+Laissez-vous inspirer, et trouvez le complice qui vous accompagnera dans l&apos;expression de votre style unique.
         </p>
         <span>_</span>
         <p className={merriweather.className}>

@@ -9,12 +9,15 @@ const merriweather = Merriweather({
 })
 
 export default function DesktopHeader() {
-	const besaceMaj = "Besaces.";
+	const besaceMaj = "AM Créa";
 
 	return (
 		<div className={styles.headerDiv}>
 			<div>
 				<h1 className={styles.besaceH1}>{besaceMaj}</h1>
+				<p
+					className={styles.besaceP}
+				>Sacs et Accessoires - Des créations uniques</p>
 			</div>
 			<div className={`${styles.rightHeaderDiv} ${merriweather.className}`}>
 				<Link
@@ -38,17 +41,6 @@ export default function DesktopHeader() {
 						width={35}
 						height={35}
 						alt="Logo Instagram"
-					/>
-				</Link>
-				<Link
-					href="https://www.instagram.com/"
-					target='_blank'
-				>
-					<Image
-						src="/socials/logoFacebook.png"
-						width={35}
-						height={35}
-						alt="Logo Facebook"
 					/>
 				</Link>
 			</div>
