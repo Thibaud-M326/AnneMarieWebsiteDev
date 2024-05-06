@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from "@/app/style/aPropos/aPropos1.module.css"
 import { Merriweather } from 'next/font/google'
+import Carousel from "@/app/ui/aPropos/aProposCarousel1"
 
 const merriweather = Merriweather({
 	subsets: ['latin'],
@@ -22,7 +23,7 @@ export default function aPropos() {
             Je laisse libre cours à ma créativité en compagnie de ma fidèle collaboratrice, la machine à coudre.
             J&apos;aime jouer avec des matériaux variés : du liège solide aux tissus comme le simili, la toile de jute et le coton.
             En les associant, je crée des pièces à la fois robustes et charmantes, parfaites pour durer dans le temps avec style et élégance.
-            Chaque pièce est pensée pour la femme moderne, dynamique et raffinée, qui cherche à allier praticité et style intemporel dans son quotidien ok.
+            Chaque pièce est pensée pour la femme moderne, dynamique et raffinée, qui cherche à allier praticité et style intemporel dans son quotidien.
           </p>
         </div>
         <div className={`${styles.quoteDiv} ${merriweather.className}`}>
@@ -32,12 +33,7 @@ export default function aPropos() {
         </div>
       </div>
       <div className={styles.imageDiv}>
-        <Image
-          src="/aPropos/purLaine.jpg"
-          width={450}
-          height={600}
-          alt='Photo Creatrice'
-        />
+        <Carousel />
       </div>
     </div>
   );
