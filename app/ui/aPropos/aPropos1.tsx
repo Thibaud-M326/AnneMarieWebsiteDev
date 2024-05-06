@@ -20,9 +20,9 @@ export default function aPropos() {
             className={merriweather.className}
           >
             Je laisse libre cours à ma créativité en compagnie de ma fidèle collaboratrice, la machine à coudre.
-J&apos;aime jouer avec des matériaux variés : du liège solide aux tissus comme le simili, la toile de jute et le coton.
-En les associant, je crée des pièces à la fois robustes et charmantes, parfaites pour durer dans le temps avec style et élégance.
-Chaque pièce est pensée pour la femme moderne, dynamique et raffinée, qui cherche à allier praticité et style intemporel dans son quotidien.
+            J&apos;aime jouer avec des matériaux variés : du liège solide aux tissus comme le simili, la toile de jute et le coton.
+            En les associant, je crée des pièces à la fois robustes et charmantes, parfaites pour durer dans le temps avec style et élégance.
+            Chaque pièce est pensée pour la femme moderne, dynamique et raffinée, qui cherche à allier praticité et style intemporel dans son quotidien.
           </p>
         </div>
         <div className={`${styles.quoteDiv} ${merriweather.className}`}>

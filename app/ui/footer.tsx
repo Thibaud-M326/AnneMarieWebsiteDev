@@ -46,7 +46,7 @@ export default function Footer() {
                 />
               </Link>
             </div>
-            <p>mail@mail.com</p>
+            <p>amcrea34@gmail.com</p>
           </div>
         </div>
       </div>
