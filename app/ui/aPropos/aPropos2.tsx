@@ -7,7 +7,7 @@ const merriweather = Merriweather({
 	weight: '300'
 })
 
-export default function aPropos() {
+export default function APropos() {
 
   return (
     <div className={styles.aProposDiv}>
@@ -20,9 +20,9 @@ export default function aPropos() {
             className={merriweather.className}
           >
           Mon savoir-faire en matière de couture s&apos;associe harmonieusement à mon esprit créatif et à ma patience.
-Chaque idée, chaque geste reflète exprime ma joie de créer.
-Cette combinaison d&apos;expertise et de passion donne naissance à des œuvres uniques, empreintes de mon style personnel et de mon souci du détail.
-Laissez-vous séduire et affirmez votre style avec un accessoire qui vous ressemble.
+          Chaque idée, chaque geste reflète exprime ma joie de créer.
+          Cette combinaison d&apos;expertise et de passion donne naissance à des œuvres uniques, empreintes de mon style personnel et de mon souci du détail.
+          Laissez-vous séduire et affirmez votre style avec un accessoire qui vous ressemble.
           </p>
         </div>
         <div className={`${styles.quoteDiv} ${merriweather.className}`}>

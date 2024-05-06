@@ -8,7 +8,7 @@ const merriweather = Merriweather({
 	weight: '300'
 })
 
-export default function aPropos() {
+export default function APropos() {
 
   return (
     <div className={styles.aProposDiv}
