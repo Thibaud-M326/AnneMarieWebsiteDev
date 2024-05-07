@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from "@/app/style/aPropos/aPropos2.module.css"
 import { Merriweather } from 'next/font/google'
+import Carousel from "@/app/ui/aPropos/aProposCarousel2"
 
 const merriweather = Merriweather({
 	subsets: ['latin'],
@@ -32,12 +33,7 @@ export default function APropos() {
         </div>
       </div>
       <div className={styles.imageDiv}>
-        <Image
-          src="/aPropos/tricotMains.png"
-          width={450}
-          height={600}
-          alt='Photo Creatrice'
-        />
+        <Carousel />
       </div>
     </div>
   );

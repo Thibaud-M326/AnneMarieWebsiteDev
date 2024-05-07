@@ -11,5 +11,6 @@
   cursor: pointer;
 }
 .thumbnail .keen-slider__slide.active {
-  border: 2px solid rgb(199, 199, 199);
+  border: 4px solid rgb(238, 238, 238);
+  border-radius: 4px;
 }
