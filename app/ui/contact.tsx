@@ -14,20 +14,17 @@ export default function Contact() {
     <div className={styles.contactDiv}
       id="contact" 
     >
-      <h1>
-        Contact
-      </h1>
       <div className={styles.contactezNousDiv}>
         <div className={styles.contactTextDiv}>
           <p
-            className={jaldi.className}
+            className={`${jaldi.className} ${styles.dontHesitateP}`}
           >
             N&apos;hésitez pas à nous communiquer vos demandes
           </p>
           <p
-            className={jaldi.className}
+            className={`${jaldi.className} ${styles.numAndMailP}`}
           >
-            Tél : 01 02 03 04 05 | info@monsite.fr
+            Tél : 01 02 03 04 05 | amcrea34@gmail.com
           </p>
         </div>
         <ContactForm />

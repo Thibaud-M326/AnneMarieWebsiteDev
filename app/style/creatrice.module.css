@@ -15,6 +15,9 @@
 .imgDiv img {
   border-radius: 4px;
   margin: 5vw;
+  margin-top: 15vh;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
 }
 
 .textDiv {
@@ -22,11 +25,14 @@
   flex-direction: column;
   justify-content: center;
   margin-right: 5vw;
-  /* background-color: aquamarine; */
 }
 
 .textDiv h1 {
   font-size: 25px;
+}
+
+@media screen and (max-width: 1400px) {
+
 }
 
 @media screen and (max-width: 885px) {
@@ -44,11 +50,13 @@
     margin: 0;
     width: 100vw;
     max-width: 450px;
+    margin-top: 15vh;
   }
 }
 
 @media screen and (max-width: 640px) {
   .imgDiv img {
     max-width: none;
+    margin: 0;
   }
 }
