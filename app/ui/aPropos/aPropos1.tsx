@@ -1,13 +1,15 @@
 import Image from 'next/image'
 import styles from "@/app/style/aPropos/aPropos1.module.css"
 import { Merriweather } from 'next/font/google'
+import Carousel from "@/app/ui/aPropos/aProposCarousel1"
+import { promises as fs } from 'fs'
 
 const merriweather = Merriweather({
 	subsets: ['latin'],
 	weight: '300'
 })
 
-export default function aPropos() {
+export default async function APropos() {
 
   return (
     <div className={styles.aProposDiv}
@@ -32,12 +34,7 @@ export default function aPropos() {
         </div>
       </div>
       <div className={styles.imageDiv}>
-        <Image
-          src="/aPropos/purLaine.jpg"
-          width={450}
-          height={600}
-          alt='Photo Creatrice'
-        />
+        <Carousel />
       </div>
     </div>
   );
