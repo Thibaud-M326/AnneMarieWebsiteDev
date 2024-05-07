@@ -5,7 +5,6 @@ import styles from "@/app/style/creations/creations.module.css"
 import Image from 'next/image'
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import "@/app/style/creations/carousel.css"
 import { useScreenSize } from "@/app/lib/screenSize";
 
 export default function Creations() {
@@ -87,7 +86,7 @@ export default function Creations() {
       </h1>
       <div className={styles.carouselDiv}>
         <div ref={sliderRef} className="keen-slider">
-          <div className="keen-slider__slide number-slide1">
+          <div className="keen-slider__slide number-slide-creations">
             <Image
               src="/bags/unnamed.png"
               width={1000}
@@ -95,7 +94,7 @@ export default function Creations() {
               alt='photo de sac'
             />
           </div>
-          <div className="keen-slider__slide number-slide1">
+          <div className="keen-slider__slide number-slide-creations">
             <Image
               src="/bags/unnamed2.png"
               width={1000}
@@ -103,7 +102,7 @@ export default function Creations() {
               alt='photo de sac'
             />
           </div>
-          <div className="keen-slider__slide number-slide1">
+          <div className="keen-slider__slide number-slide-creations">
             <Image
               src="/bags/unnamed3.png"
               width={1000}
@@ -111,7 +110,7 @@ export default function Creations() {
               alt='photo de sac'
             />
           </div>
-          <div className="keen-slider__slide number-slide1">
+          <div className="keen-slider__slide number-slide-creations">
             <Image
               src="/bags/unnamed4.png"
               width={1000}
@@ -119,7 +118,7 @@ export default function Creations() {
               alt='photo de sac'
             />
           </div>
-          <div className="keen-slider__slide number-slide1">
+          <div className="keen-slider__slide number-slide-creations">
             <Image
               src="/bags/unnamed5.png"
               width={1000}

@@ -1,0 +1,16 @@
+.carouselDiv {
+  width: 450px;
+}
+
+.thumbnail .keen-slider__slide {
+  font-size: 30px;
+  margin-top: 10px;
+  height: 100px;
+}
+.thumbnail .keen-slider__slide {
+  cursor: pointer;
+}
+.thumbnail .keen-slider__slide.active {
+  border: 4px solid rgb(238, 238, 238);
+  border-radius: 4px;
+}
