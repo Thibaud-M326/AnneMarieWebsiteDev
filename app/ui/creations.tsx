@@ -88,7 +88,7 @@ export default function Creations() {
         <div ref={sliderRef} className="keen-slider">
           <div className="keen-slider__slide number-slide-creations">
             <Image
-              src="/bags/unnamed.png"
+              src="/bags/photo-23.jpg"
               width={1000}
               height={1000}
               alt='photo de sac'
@@ -96,7 +96,7 @@ export default function Creations() {
           </div>
           <div className="keen-slider__slide number-slide-creations">
             <Image
-              src="/bags/unnamed2.png"
+              src="/bags/photo-25.jpg"
               width={1000}
               height={1000}
               alt='photo de sac'
@@ -104,7 +104,7 @@ export default function Creations() {
           </div>
           <div className="keen-slider__slide number-slide-creations">
             <Image
-              src="/bags/unnamed3.png"
+              src="/bags/photo-27.jpg"
               width={1000}
               height={1000}
               alt='photo de sac'
@@ -112,7 +112,7 @@ export default function Creations() {
           </div>
           <div className="keen-slider__slide number-slide-creations">
             <Image
-              src="/bags/unnamed4.png"
+              src="/bags/photo-29.jpg"
               width={1000}
               height={1000}
               alt='photo de sac'
@@ -120,7 +120,31 @@ export default function Creations() {
           </div>
           <div className="keen-slider__slide number-slide-creations">
             <Image
-              src="/bags/unnamed5.png"
+              src="/bags/photo-31.jpg"
+              width={1000}
+              height={1000}
+              alt='photo de sac'
+            />
+          </div>
+          <div className="keen-slider__slide number-slide-creations">
+            <Image
+              src="/bags/photo-32.jpg"
+              width={1000}
+              height={1000}
+              alt='photo de sac'
+            />
+          </div>
+          <div className="keen-slider__slide number-slide-creations">
+            <Image
+              src="/bags/photo-34.jpg"
+              width={1000}
+              height={1000}
+              alt='photo de sac'
+            />
+          </div>
+          <div className="keen-slider__slide number-slide-creations">
+            <Image
+              src="/bags/photo-37.jpg"
               width={1000}
               height={1000}
               alt='photo de sac'
