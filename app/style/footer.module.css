@@ -3,11 +3,11 @@
   justify-content: space-around;
   background-color: #121212;
   padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-bottom: 4vh;
 }
 
 .footerDiv p {
-  font-size: 17px;
+  font-size: 18px;
   color: white;
 }
 
@@ -15,11 +15,22 @@
   color: white;
   text-decoration: none;
   margin-right: 1vw;
+  font-size: 18px;
 }
 
 .footerDiv a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contactA {
+  margin-top: 10px;
 }
 
 .linkDiv {

@@ -24,7 +24,7 @@ export default function Contact() {
           <p
             className={`${jaldi.className} ${styles.numAndMailP}`}
           >
-            Tél : 01 02 03 04 05 | amcrea34@gmail.com
+            Tél : 06 58 81 04 27 | amcrea34@gmail.com
           </p>
         </div>
         <ContactForm />

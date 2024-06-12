@@ -17,11 +17,14 @@ export default function Footer() {
       <div
         className={styles.footerDiv}
       >
-        <div>
+        <div
+          className={styles.contactDiv}
+        >
           <Link
+            className={styles.contactA}
             href="#contact"
           >Contact</Link>
-          <p>Tel : 06 01 02 03 04 05</p>
+          <p>Tel : 06 58 81 04 27</p>
         </div>
         <div>
           <div
