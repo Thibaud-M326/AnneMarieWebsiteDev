@@ -33,6 +33,11 @@
   font-size: 20px;
 }
 
+.succeedP {
+  font-size: 20px;
+  margin: 5vh;
+}
+
 .formDiv form {
   display: flex;
   flex-direction: column;

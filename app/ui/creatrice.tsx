@@ -12,7 +12,7 @@ export default function Creatrice() {
     <div className={styles.creatriceDiv}>
       <div className={styles.imgDiv}>
         <Image
-          src="/photo-3.jpg" 
+          src="/photo-11.jpg" 
           width={450}
           height={600}
           alt='Photo Creatrice'

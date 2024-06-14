@@ -38,9 +38,9 @@ export function ContactForm() {
   if (state.succeeded) {
     return (
       <p
-        className={jaldi.className}
+        className={`${jaldi.className} ${styles.succeedP}`}
       >
-        merci, un email vien de nous etre envoyé !
+        Merci, un email vient de nous être envoyé !
       </p>
     );
   }
