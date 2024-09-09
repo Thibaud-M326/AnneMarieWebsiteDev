@@ -1,3 +1,15 @@
+# Start
+
+Pour demarrer le projet je dois utiliser le terminal Bash et non zsh ou autre car,
+
+npm n'est pas installé sur zsh visiblement.
+
+-npm run dev
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
