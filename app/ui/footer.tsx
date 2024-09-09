@@ -17,26 +17,31 @@ export default function Footer() {
       <div
         className={styles.footerDiv}
       >
-        <div
-          className={styles.contactDiv}
-        >
-          <Link
-            className={styles.contactA}
-            href="#contact"
-          >Contact</Link>
-          <p>Tel : 06 58 81 04 27</p>
-        </div>
         <div>
           <div
             className={styles.linkDiv}
           >
             <div className={styles.instagramDiv}>
               <Link
-                href="https://www.instagram.com/"
+                href="https://www.etsy.com/shop/amcreationunique/?etsrc=sdt"
                 target='_blank'
               >
-                Instagram
+                <Image
+                  src="/socials/logoEtsy.webp"
+                  width={35}
+                  height={35}
+                  alt="Logo Instagram"
+                />
               </Link>
+            </div>
+            <p>Tél : 06 58 81 04 27</p>
+          </div>
+        </div>
+        <div>
+          <div
+            className={styles.linkDiv}
+          >
+            <div className={styles.instagramDiv}>
               <Link
                 href="https://www.instagram.com/"
                 target='_blank'

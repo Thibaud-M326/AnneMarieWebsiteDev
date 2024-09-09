@@ -33,7 +33,7 @@ export default function DesktopHeader() {
 					href="#faq"
 				>FAQ</Link>
 				<Link
-					href="https://www.instagram.com/"
+					href="https://www.instagram.com/amcrea34/"
 					target='_blank'
 				>
 					<Image
@@ -41,6 +41,17 @@ export default function DesktopHeader() {
 						width={35}
 						height={35}
 						alt="Logo Instagram"
+					/>
+				</Link>
+				<Link
+					href="https://www.etsy.com/shop/amcreationunique/?etsrc=sdt"
+					target='_blank'
+				>
+					<Image
+						src="/socials/logoEtsy.webp"
+						width={35}
+						height={35}
+						alt="Logo Etsy"
 					/>
 				</Link>
 			</div>

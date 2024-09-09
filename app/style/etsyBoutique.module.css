@@ -1,0 +1,39 @@
+.etsyBoutiqueDiv {
+    background-color: #eff3ff;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.textAndButton {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #F1641E;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.button:hover {
+    background-color: #f07b40;
+}
+
+.button:active {
+    padding-left: 6px;
+    padding-top: 6px;
+}

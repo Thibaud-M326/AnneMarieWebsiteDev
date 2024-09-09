@@ -87,7 +87,24 @@ export default function MobileHeader() {
 					<div >
 						<Link
 							className={styles.instagram}
-							href="https://www.instagram.com/"
+							href="https://www.etsy.com/shop/amcreationunique/?etsrc=sdt"
+							target='_blank'
+						>
+							<p>
+								ETSY	
+							</p>
+							<Image
+								src="/socials/logoEtsy.webp"
+								width={35}
+								height={35}
+								alt="Logo Instagram"
+							/>
+						</Link>
+					</div>
+					<div >
+						<Link
+							className={styles.instagram}
+							href="https://www.instagram.com/amcrea34/"
 							target='_blank'
 						>
 							<p>
