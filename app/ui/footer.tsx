@@ -43,7 +43,7 @@ export default function Footer() {
           >
             <div className={styles.instagramDiv}>
               <Link
-                href="https://www.instagram.com/"
+					      href="https://www.instagram.com/amcrea34/"
                 target='_blank'
               >
                 <Image
